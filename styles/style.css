@@ -28,17 +28,26 @@
   height: 37.5rem;
   text-decoration: none;
   text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.hero:hover {
+  color: rgb(8, 0, 6);
+  transition: 0.8s ease-in-out;
 }
 
 .prendas_img {
-  background-image: url("../img/prendas1.png");
   height: 31.25rem;
+  background-image: url("../img/prendas1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 37.5rem;
   text-decoration: none;
   text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .accesorios_img {
@@ -47,34 +56,67 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 37.5rem;
   text-decoration: none;
   text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.prendas_img:hover {
+  background-image: url("../img/prendas2.png");
+  transition: ease-in-out 0.8s;
+}
+
+.accesorios_img:hover {
+  background-image: url("../img/accesorios2.webp");
+  transition: ease-in-out 0.8s;
 }
 .newsletter__container {
   background-image: url("../img/backgnewsletter2.webp");
 }
+
+.pagosm {
+  height: 1.875rem;
+}
+.footer__container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
 /* (responsive) */
-@media screen and (max-width: 767px) {
-  .navbar-brand {
-    display: none;
-  }
+
+@media screen and (max-width: 768px) {
   .hero {
     font-size: 5rem;
   }
   .section__text {
     font-size: 3.75rem;
   }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
+
 @media screen and (max-width: 360px) {
   .hero {
-    font-size: 3.125rem;
+    font-size: 3rem;
     justify-content: center;
     height: 20rem;
   }
-  section {
-    flex-direction: column;
-    height: 12.5rem;
+  .prendas_img {
+    height: 9.375rem;
+  }
+  .accesorios_img {
+    height: 9.375rem;
   }
   .section__text {
     font-size: 1.875rem;
@@ -89,5 +131,8 @@
   }
   h4 {
     font-size: 0.9375rem;
+  }
+  .medios_pagos {
+    display: none;
   }
 }
