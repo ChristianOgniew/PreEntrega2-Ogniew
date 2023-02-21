@@ -63,20 +63,31 @@
     font-size: 5rem;
   }
   .section__text {
-    font-size: 60px;
+    font-size: 3.75rem;
   }
 }
 @media screen and (max-width: 360px) {
   .hero {
     font-size: 3.125rem;
     justify-content: center;
-    height: 320px;
+    height: 20rem;
   }
   section {
     flex-direction: column;
-    height: 200px;
+    height: 12.5rem;
   }
   .section__text {
     font-size: 1.875rem;
+  }
+
+  footer {
+    font-size: 0.625rem;
+    text-align: center;
+  }
+  .copyright {
+    font-size: 0.625rem;
+  }
+  h4 {
+    font-size: 0.9375rem;
   }
 }
