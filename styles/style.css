@@ -88,9 +88,22 @@
   text-align: center;
 }
 
+/* SECCION PRENDAS */
+/* .banner__prendas {
+  width: 100%;
+  height: auto;
+} */
+
+small {
+  color: red;
+}
+/*  FIN SECCION PRENDAS */
 /* (responsive) */
 
 @media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: none;
+  }
   .hero {
     font-size: 5rem;
   }
@@ -107,6 +120,9 @@
 }
 
 @media screen and (max-width: 360px) {
+  .navbar-brand {
+    display: none;
+  }
   .hero {
     font-size: 3rem;
     justify-content: center;
