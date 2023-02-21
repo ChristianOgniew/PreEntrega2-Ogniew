@@ -10,6 +10,11 @@
 }
 
 /* estilos generales */
+.section__text {
+  font-size: 5.625rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
 
 /* hero */
 .hero {
@@ -24,18 +29,54 @@
   text-decoration: none;
   text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
 }
+
+.prendas_img {
+  background-image: url("../img/prendas1.png");
+  height: 31.25rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 37.5rem;
+  text-decoration: none;
+  text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
+}
+
+.accesorios_img {
+  background-image: url("../img/accesorios1.jpg");
+  height: 31.25rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 37.5rem;
+  text-decoration: none;
+  text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
+}
+.newsletter__container {
+  background-image: url("../img/backgnewsletter2.webp");
+}
 /* (responsive) */
 @media screen and (max-width: 767px) {
   .navbar-brand {
     display: none;
   }
   .hero {
-    font-size: 80px;
+    font-size: 5rem;
+  }
+  .section__text {
+    font-size: 60px;
   }
 }
 @media screen and (max-width: 360px) {
   .hero {
-    font-size: 50px;
+    font-size: 3.125rem;
     justify-content: center;
+    height: 320px;
+  }
+  section {
+    flex-direction: column;
+    height: 200px;
+  }
+  .section__text {
+    font-size: 1.875rem;
   }
 }
