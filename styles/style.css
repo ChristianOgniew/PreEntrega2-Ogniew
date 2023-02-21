@@ -109,6 +109,20 @@ small {
   height: 600px;
 }
 /* FIN STORES */
+
+/* AYUDA */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form-control {
+  width: 500px;
+}
+
+/* FIN AYUDA */
+
 /* (responsive) */
 
 @media screen and (max-width: 768px) {
@@ -127,6 +141,10 @@ small {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .form-control {
+    width: 100%;
   }
 }
 
@@ -161,5 +179,9 @@ small {
   }
   .medios_pagos {
     display: none;
+  }
+
+  .form-control {
+    width: 100%;
   }
 }
