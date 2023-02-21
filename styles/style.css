@@ -1,0 +1,41 @@
+/* nav bar */
+.navbar {
+  padding: 2rem;
+  background-color: f5f6f7;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* estilos generales */
+
+/* hero */
+.hero {
+  background-image: url("../img/heromain.jpg");
+  font-size: 6.25rem;
+  text-decoration: none;
+  color: whitesmoke;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 37.5rem;
+  text-decoration: none;
+  text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
+}
+/* (responsive) */
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+  .hero {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .hero {
+    font-size: 50px;
+    justify-content: center;
+  }
+}
