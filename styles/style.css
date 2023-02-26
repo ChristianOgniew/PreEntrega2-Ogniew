@@ -1,14 +1,3 @@
-/* nav bar */
-.navbar {
-  padding: 2rem;
-  background-color: #f5f6f7;
-}
-
-.navbar-collapse {
-  align-items: center;
-  justify-content: space-between;
-}
-
 /* estilos generales */
 .section__text {
   text-decoration: none;
@@ -22,7 +11,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 37.5rem;
+  height: 600px;
   text-decoration: none;
   text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
   font-size: calc(1rem + 5vw);
@@ -40,20 +29,19 @@
   background-repeat: no-repeat;
   background-position: center;
   text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
+  transition: ease-in-out 0.8s;
 }
 
 .accesorios__bg {
   background-image: url("../img/accesorios1.jpg");
 }
 
-.prendas_img:hover {
+.prendas:hover {
   background-image: url("../img/prendas2.png");
-  transition: ease-in-out 0.8s;
 }
 
-.accesorios_img:hover {
+.accesorios:hover {
   background-image: url("../img/accesorios2.webp");
-  transition: ease-in-out 0.8s;
 }
 .newsletter__container {
   background-image: url("../img/backgnewsletter2.webp");
@@ -103,13 +91,20 @@ form {
 /* (responsive) */
 
 @media screen and (max-width: 360px) {
-  .navbar-brand {
-    display: none;
+  .hero {
+    height: 300px;
+  }
+  .logo__img {
+    width: 50px;
+    height: 50px;
   }
   .section__img {
     height: 150px;
   }
   .medios_pagos {
     display: none;
+  }
+  .navbar-toggler {
+    font-size: 16px;
   }
 }
