@@ -1,7 +1,7 @@
 /* nav bar */
 .navbar {
   padding: 2rem;
-  background-color: f5f6f7;
+  background-color: #f5f6f7;
 }
 
 .navbar-collapse {
@@ -20,9 +20,10 @@
 .hero {
   display: flex;
   justify-content: center;
+  width: 100%;
   align-items: center;
   background-image: url("../img/heromain.jpg");
-  font-size: 6.25rem;
+  font-size: 100px;
   text-decoration: none;
   color: whitesmoke;
   background-size: cover;
@@ -38,7 +39,6 @@
 }
 
 .prendas_img {
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 31.25rem;
@@ -60,7 +60,6 @@
   text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
   align-items: center;
   justify-content: center;
-  display: flex;
 }
 
 .prendas_img:hover {
@@ -129,7 +128,7 @@ form {
 
 /* (responsive) */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .navbar-brand {
     display: none;
   }
@@ -161,6 +160,9 @@ form {
     justify-content: center;
     height: 20rem;
   }
+  .section__container {
+    flex-direction: column;
+  }
   .prendas_img {
     height: 9.375rem;
   }
@@ -188,4 +190,4 @@ form {
   .form-control {
     width: 100%;
   }
-}
+} */
