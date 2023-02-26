@@ -11,55 +11,39 @@
 
 /* estilos generales */
 .section__text {
-  font-size: 5.625rem;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  font-size: calc(1rem + 5vw);
 }
 
 /* hero */
 .hero {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  align-items: center;
   background-image: url("../img/heromain.jpg");
-  font-size: 100px;
-  text-decoration: none;
-  color: whitesmoke;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 37.5rem;
   text-decoration: none;
   text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
+  font-size: calc(1rem + 5vw);
 }
+
 .hero:hover {
   color: rgb(8, 0, 6);
   transition: 0.8s ease-in-out;
 }
 
-.prendas_img {
-  justify-content: center;
-  align-items: center;
-  height: 31.25rem;
+.section__img {
+  height: 30rem;
   background-image: url("../img/prendas1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  text-decoration: none;
   text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
 }
 
-.accesorios_img {
+.accesorios__bg {
   background-image: url("../img/accesorios1.jpg");
-  height: 31.25rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-decoration: none;
-  text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
-  align-items: center;
-  justify-content: center;
 }
 
 .prendas_img:hover {
@@ -87,16 +71,6 @@
   text-align: center;
 }
 
-h6 {
-  font-size: 0.75rem;
-}
-
-/* SECCION PRENDAS */
-/* .banner__prendas {
-  width: 100%;
-  height: auto;
-} */
-
 small {
   color: red;
 }
@@ -105,7 +79,7 @@ small {
 
 /* STORES */
 .location__text {
-  font-size: 1.875rem;
+  font-size: calc(1rem + 5vw);
 }
 .location__map {
   width: 50rem;
@@ -121,73 +95,21 @@ form {
   flex-direction: column;
 }
 .form-control {
-  width: 31.25rem;
+  width: 500px;
 }
 
 /* FIN AYUDA */
 
 /* (responsive) */
 
-/* @media screen and (max-width: 768px) {
-  .navbar-brand {
-    display: none;
-  }
-  .hero {
-    font-size: 5rem;
-  }
-  .section__text {
-    font-size: 3.75rem;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .form-control {
-    width: 100%;
-  }
-}
-
 @media screen and (max-width: 360px) {
   .navbar-brand {
     display: none;
   }
-  .hero {
-    font-size: 3rem;
-    justify-content: center;
-    height: 20rem;
-  }
-  .section__container {
-    flex-direction: column;
-  }
-  .prendas_img {
-    height: 9.375rem;
-  }
-  .accesorios_img {
-    height: 9.375rem;
-  }
-  .section__text {
-    font-size: 1.875rem;
-  }
-
-  footer {
-    font-size: 0.75rem;
-    text-align: center;
-  }
-  .copyright {
-    font-size: 0.75rem;
-  }
-  h4 {
-    font-size: 0.9375rem;
+  .section__img {
+    height: 150px;
   }
   .medios_pagos {
     display: none;
   }
-
-  .form-control {
-    width: 100%;
-  }
-} */
+}
