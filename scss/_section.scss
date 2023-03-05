@@ -14,12 +14,12 @@ section {
     text-decoration: none;
     text-shadow: $text-shadow;
     color: $cool-white;
-    font-size: calc(1rem + 5vw);
+    font-size: $title-font;
   }
 
   .prendas {
     background-image: url("../img/prendas1.png");
-    transition: ease-in-out 0.8s;
+    transition: $transition;
     &:hover {
       background-image: url("../img/prendas2.png");
     }
@@ -27,7 +27,7 @@ section {
 
   .accesorios {
     background-image: url("../img/accesorios1.jpg");
-    transition: ease-in-out 0.8s;
+    transition: $transition;
     &:hover {
       background-image: url("../img/accesorios2.webp");
     }

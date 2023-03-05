@@ -6,7 +6,7 @@ h1 {
   height: 37.5rem;
   text-decoration: none;
   text-shadow: $text-shadow;
-  font-size: calc(1rem + 5vw);
+  font-size: $title-font;
 
   @include phone {
     height: 18.75rem;
@@ -14,6 +14,6 @@ h1 {
 
   &:hover {
     color: rgb(8, 0, 6) !important;
-    transition: 0.8s ease-in-out;
+    transition: $transition;
   }
 }

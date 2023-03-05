@@ -37,14 +37,14 @@ section .section__text {
 }
 section .prendas {
   background-image: url("../img/prendas1.png");
-  transition: ease-in-out 0.8s;
+  transition: 0.8s ease-in-out;
 }
 section .prendas:hover {
   background-image: url("../img/prendas2.png");
 }
 section .accesorios {
   background-image: url("../img/accesorios1.jpg");
-  transition: ease-in-out 0.8s;
+  transition: 0.8s ease-in-out;
 }
 section .accesorios:hover {
   background-image: url("../img/accesorios2.webp");
@@ -71,6 +71,14 @@ section .accesorios:hover {
   .navbar-toggler {
     font-size: 1rem;
   }
+}
+.location__text {
+  font-size: calc(1rem + 5vw);
+}
+
+.location__map {
+  width: 50rem;
+  height: 37.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
