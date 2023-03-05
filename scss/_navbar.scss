@@ -7,3 +7,12 @@
     font-size: 1rem;
   }
 }
+div.banner {
+  background-image: url("../img/bannerground.png");
+  h2 {
+    transition: $transition;
+    &:hover {
+      color: blueviolet !important;
+    }
+  }
+}

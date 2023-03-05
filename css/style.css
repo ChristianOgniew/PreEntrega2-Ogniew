@@ -74,6 +74,16 @@ section .accesorios:hover {
     font-size: 1rem;
   }
 }
+div.banner {
+  background-image: url("../img/bannerground.png");
+}
+div.banner h2 {
+  transition: 0.8s ease-in-out;
+}
+div.banner h2:hover {
+  color: blueviolet !important;
+}
+
 .location__text {
   font-size: calc(1rem + 5vw);
 }
