@@ -5,7 +5,7 @@ h1 {
   background-position: center;
   height: 37.5rem;
   text-decoration: none;
-  text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
+  text-shadow: $text-shadow;
   font-size: calc(1rem + 5vw);
 
   @include phone {

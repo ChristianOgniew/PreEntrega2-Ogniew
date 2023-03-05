@@ -24,10 +24,15 @@ section {
   background-repeat: no-repeat;
   background-position: center;
 }
+@media screen and (max-width: 360px) {
+  section a.section__img {
+    height: 9.375rem;
+  }
+}
 section .section__text {
   text-decoration: none;
   text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
-  color: rgb(255, 255, 255);
+  color: #f9f6ee;
   font-size: calc(1rem + 5vw);
 }
 section .prendas {
@@ -45,11 +50,6 @@ section .accesorios:hover {
   background-image: url("../img/accesorios2.webp");
 }
 
-@media screen and (max-width: 360px) {
-  a.section__img {
-    height: 9.375rem;
-  }
-}
 .newsletter__container {
   background-image: url("../img/backgnewsletter2.webp");
 }
