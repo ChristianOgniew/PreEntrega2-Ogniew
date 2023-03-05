@@ -1,12 +1,12 @@
 /* estilos generales */
-.section__text {
+/* .section__text {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: calc(1rem + 5vw);
-}
+} */
 
 /* hero */
-.hero {
+/* .hero {
   background-image: url("../img/heromain.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,9 +20,10 @@
 .hero:hover {
   color: rgb(8, 0, 6);
   transition: 0.8s ease-in-out;
-}
+} */
+/* aaaaaaaaaaaaaaaa */
 
-.section__img {
+/* .section__img {
   height: 30rem;
   background-image: url("../img/prendas1.png");
   background-size: cover;
@@ -42,14 +43,17 @@
 
 .accesorios:hover {
   background-image: url("../img/accesorios2.webp");
-}
-.newsletter__container {
-  background-image: url("../img/backgnewsletter2.webp");
-}
+} */
 
-.pagosm {
+/* aaaaaaaaaaa */
+
+/* .newsletter__container {
+  background-image: url("../img/backgnewsletter2.webp");
+} */
+
+/* .pagosm {
   height: 1.875rem;
-}
+} */
 
 small {
   color: red;
@@ -74,7 +78,7 @@ small {
 
 /* (responsive) */
 
-@media screen and (max-width: 360px) {
+/* @media screen and (max-width: 360px) {
   .hero {
     height: 18.75rem;
   }
@@ -91,4 +95,4 @@ small {
   .navbar-toggler {
     font-size: 1rem;
   }
-}
+} */

@@ -1,0 +1,8 @@
+.pagosm {
+  height: 1.875rem;
+}
+@include phone {
+  .medios_pagos {
+    display: none;
+  }
+}

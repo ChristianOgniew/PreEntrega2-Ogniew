@@ -1,0 +1,76 @@
+h1 {
+  background-image: url("../img/heromain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 37.5rem;
+  text-decoration: none;
+  text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
+  font-size: calc(1rem + 5vw);
+}
+@media screen and (max-width: 360px) {
+  h1 {
+    height: 18.75rem;
+  }
+}
+h1:hover {
+  color: rgb(8, 0, 6) !important;
+  transition: 0.8s ease-in-out;
+}
+
+section {
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section .section__text {
+  text-decoration: none;
+  text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
+  color: rgb(255, 255, 255);
+  font-size: calc(1rem + 5vw);
+}
+section .prendas {
+  background-image: url("../img/prendas1.png");
+  transition: ease-in-out 0.8s;
+}
+section .prendas:hover {
+  background-image: url("../img/prendas2.png");
+}
+section .accesorios {
+  background-image: url("../img/accesorios1.jpg");
+  transition: ease-in-out 0.8s;
+}
+section .accesorios:hover {
+  background-image: url("../img/accesorios2.webp");
+}
+
+@media screen and (max-width: 360px) {
+  a.section__img {
+    height: 9.375rem;
+  }
+}
+.newsletter__container {
+  background-image: url("../img/backgnewsletter2.webp");
+}
+
+.pagosm {
+  height: 1.875rem;
+}
+
+@media screen and (max-width: 360px) {
+  .medios_pagos {
+    display: none;
+  }
+}
+@media screen and (max-width: 360px) {
+  .logo__img {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+  .navbar-toggler {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

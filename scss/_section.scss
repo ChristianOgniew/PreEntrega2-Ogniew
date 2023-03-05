@@ -1,0 +1,35 @@
+section {
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .section__text {
+    text-decoration: none;
+    text-shadow: 0.0625rem 0.0625rem 0.1875rem black;
+    color: rgb(255, 255, 255);
+    font-size: calc(1rem + 5vw);
+  }
+
+  .prendas {
+    background-image: url("../img/prendas1.png");
+    transition: ease-in-out 0.8s;
+    &:hover {
+      background-image: url("../img/prendas2.png");
+    }
+  }
+
+  .accesorios {
+    background-image: url("../img/accesorios1.jpg");
+    transition: ease-in-out 0.8s;
+    &:hover {
+      background-image: url("../img/accesorios2.webp");
+    }
+  }
+}
+
+@include phone {
+  a.section__img {
+    height: 9.375rem;
+  }
+}
