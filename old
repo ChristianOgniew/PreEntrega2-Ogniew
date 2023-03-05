@@ -55,25 +55,25 @@
   height: 1.875rem;
 } */
 
-small {
+/* small {
   color: red;
-}
+} */
 
-.btn__form {
+/* .btn__form {
   margin: 0 auto;
   display: block;
-}
+} */
 
 /*  FIN SECCION PRENDAS */
 
 /* STORES */
-.location__text {
+/* .location__text {
   font-size: calc(1rem + 5vw);
 }
 .location__map {
   width: 50rem;
   height: 37.5rem;
-}
+} */
 /* FIN STORES */
 
 /* (responsive) */

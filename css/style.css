@@ -18,15 +18,17 @@ h1:hover {
   transition: 0.8s ease-in-out;
 }
 
-section {
+section a.section__img {
   height: 30rem;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
 }
 @media screen and (max-width: 360px) {
   section a.section__img {
     height: 9.375rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 section .section__text {
@@ -79,6 +81,15 @@ section .accesorios:hover {
 .location__map {
   width: 50rem;
   height: 37.5rem;
+}
+
+small {
+  color: red;
+}
+
+.btn__form {
+  margin: 0 auto;
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */

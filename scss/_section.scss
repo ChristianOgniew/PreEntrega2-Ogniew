@@ -1,12 +1,16 @@
 section {
-  height: 30rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  a.section__img {
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
   @include phone {
     a.section__img {
       height: 9.375rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
     }
   }
 
