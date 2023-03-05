@@ -90,6 +90,11 @@ small {
 .btn__form {
   margin: 0 auto;
   display: block;
+  background-color: blueviolet !important;
+}
+.btn__form:hover {
+  color: rgb(0, 0, 0) !important;
+  transition: 0.8s ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */
