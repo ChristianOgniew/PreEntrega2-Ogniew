@@ -1,5 +1,5 @@
 h1 {
-  background-image: url("../img/heromain.jpg");
+  background-image: url("../img/MainHero/heromain.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -38,22 +38,22 @@ section .section__text {
   font-size: calc(1rem + 5vw);
 }
 section .prendas {
-  background-image: url("../img/prendas1.png");
+  background-image: url("../img/Section/prendas1.png");
   transition: 0.8s ease-in-out;
 }
 section .prendas:hover {
-  background-image: url("../img/prendas2.png");
+  background-image: url("../img/Section/prendas2.png");
 }
 section .accesorios {
-  background-image: url("../img/accesorios1.jpg");
+  background-image: url("../img/Section/accesorios1.jpg");
   transition: 0.8s ease-in-out;
 }
 section .accesorios:hover {
-  background-image: url("../img/accesorios2.webp");
+  background-image: url("../img/Section/accesorios2.webp");
 }
 
 .newsletter__container {
-  background-image: url("../img/backgnewsletter2.webp");
+  background-image: url("../img/backgrounds/backgnewsletter2.webp");
 }
 
 .pagosm {
@@ -75,7 +75,7 @@ section .accesorios:hover {
   }
 }
 div.banner {
-  background-image: url("../img/bannerground.png");
+  background-image: url("../img/backgrounds/bannerground.png");
 }
 div.banner .parpadea {
   animation-name: parpadeo;

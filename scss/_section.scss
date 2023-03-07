@@ -22,18 +22,18 @@ section {
   }
 
   .prendas {
-    background-image: url("../img/prendas1.png");
+    background-image: url("../img/Section/prendas1.png");
     transition: $transition;
     &:hover {
-      background-image: url("../img/prendas2.png");
+      background-image: url("../img/Section/prendas2.png");
     }
   }
 
   .accesorios {
-    background-image: url("../img/accesorios1.jpg");
+    background-image: url("../img/Section/accesorios1.jpg");
     transition: $transition;
     &:hover {
-      background-image: url("../img/accesorios2.webp");
+      background-image: url("../img/Section/accesorios2.webp");
     }
   }
 }
