@@ -77,11 +77,51 @@ section .accesorios:hover {
 div.banner {
   background-image: url("../img/bannerground.png");
 }
-div.banner h2 {
-  transition: 0.8s ease-in-out;
+div.banner .parpadea {
+  animation-name: parpadeo;
+  animation-duration: 11s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
 }
-div.banner h2:hover {
-  color: blueviolet !important;
+@-moz-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes parpadeo {
+  0% {
+    color: white;
+    opacity: 1;
+  }
+  50% {
+    color: #0df053;
+    opacity: 0.5;
+  }
+  100% {
+    color: white;
+    opacity: 1;
+  }
 }
 
 .location__text {
