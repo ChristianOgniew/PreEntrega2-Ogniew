@@ -45,11 +45,11 @@ section .prendas:hover {
   background-image: url("../img/Section/prendas2.png");
 }
 section .accesorios {
-  background-image: url("../img/Section/accesorios1.jpg");
+  background-image: url("../img/Section/accesorios1.webp");
   transition: 0.8s ease-in-out;
 }
 section .accesorios:hover {
-  background-image: url("../img/Section/accesorios2.webp");
+  background-image: url("../img/Section/accesorios2.jpg");
 }
 
 .newsletter__container {

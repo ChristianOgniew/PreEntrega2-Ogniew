@@ -30,10 +30,10 @@ section {
   }
 
   .accesorios {
-    background-image: url("../img/Section/accesorios1.jpg");
+    background-image: url("../img/Section/accesorios1.webp");
     transition: $transition;
     &:hover {
-      background-image: url("../img/Section/accesorios2.webp");
+      background-image: url("../img/Section/accesorios2.jpg");
     }
   }
 }
