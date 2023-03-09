@@ -39,14 +39,14 @@ section .section__text {
 }
 section .prendas {
   background-image: url("../img/Section/prendas1.png");
-  transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out background-image;
 }
 section .prendas:hover {
   background-image: url("../img/Section/prendas2.png");
 }
 section .accesorios {
   background-image: url("../img/Section/accesorios1.webp");
-  transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out background-image;
 }
 section .accesorios:hover {
   background-image: url("../img/Section/accesorios2.jpg");

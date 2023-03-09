@@ -23,7 +23,7 @@ section {
 
   .prendas {
     background-image: url("../img/Section/prendas1.png");
-    transition: $transition;
+    transition: $transition background-image;
     &:hover {
       background-image: url("../img/Section/prendas2.png");
     }
@@ -31,7 +31,7 @@ section {
 
   .accesorios {
     background-image: url("../img/Section/accesorios1.webp");
-    transition: $transition;
+    transition: $transition background-image;
     &:hover {
       background-image: url("../img/Section/accesorios2.jpg");
     }
