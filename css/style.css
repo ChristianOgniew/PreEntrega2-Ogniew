@@ -45,7 +45,7 @@ section .prendas:hover {
   background-image: url("../img/Section/prendas2.png");
 }
 section .accesorios {
-  background-image: url("../img/Section/accesorios1.webp");
+  background-image: url("../img/Section/accesorios1.jpg");
   transition: 0.8s ease-in-out background-image;
 }
 section .accesorios:hover {
